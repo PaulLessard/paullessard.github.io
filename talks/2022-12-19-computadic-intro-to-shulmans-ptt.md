@@ -14,11 +14,11 @@ This talk presents a computadic approach to Shulman's Practical Type Theory, exp
 
 ## Video
 
-[Video recording available here](https://example.com/video-link)
+[Video recording available here](https://www.youtube.com/watch?v=G91-yBNUu9I)
 
-## Notes
+## Slides/Notes
 
-[Slides and notes available here](https://example.com/notes-link)
+[Slides and notes available here](https://topos.institute/events/berkeley-seminar/slides/2022-12-19.pdf)
 
 ## Additional Resources
 

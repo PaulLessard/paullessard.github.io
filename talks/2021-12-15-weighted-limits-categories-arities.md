@@ -8,19 +8,23 @@ type: "conference"
 
 ## Abstract
 
-This talk explores weighted limits in the 2-category of categories with arities, providing a 2-categorical framework for understanding spectrification processes and their applications to higher category theory.
+We provide a nearly formal treatment of the 2-category of categories with arities of Berger-Mellies-Weber with important consequences for the computation of weighted limits in that 2-category. As an example application of that theory we'll demonstrate that two “obvious” notions of Z-category are equivalent. Along the way we'll observe that the spectrification functors of classical algebraic topology admit a natural 2-categorical generalization.
 
 <!--more-->
 
-## Video
+## Conference Information
 
-[Video recording available here](https://example.com/video-link-2)
+[Australian Kittens 2021: A Meeting of Early Career Researchers in Category Theory and Homotopy Theory](https://www.marcyrobertson.com/australian-kittens--an-ecr-conference.html)
+December 2-3, 2021
 
-## Notes
+This two day virtual conference is a meeting and celebration of early career researchers in Australian category theory, homotopy theory and related areas. The meeting will consist of a series of 20 minute contributed talks from Australian graduate students and postdocs, virtual/hybrid social events, career advice and mentoring activities. 
 
-[Slides and notes available here](https://example.com/notes-link-2)
+## Slides/Notes
 
-## Additional Resources
+[Download PDF: Weighted Limits of Categories With Arities](/pdfs/Weighted%20Limits%20of%20Categories%20With%20Arities.pdf)
 
-- Related papers and references
-- Follow-up discussions and Q&A
+## Awards won:
+
+- Scariest (Pseudo)-Commutative Diagram Award
+- Abstract "Non"-Sense Award
+

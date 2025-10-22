@@ -16,7 +16,7 @@ This talk presents a new perspective on spectra as locally finite pointed Z-grou
 
 [Video recording available here](https://example.com/video-link-3)
 
-## Notes
+## SlidesNotes
 
 [Slides and notes available here](https://example.com/notes-link-3)
 
