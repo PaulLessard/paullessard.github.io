@@ -113,37 +113,37 @@ Homotopy Theory • Category Theory • Algebraic Geometry • Differential Geom
 
 |    |    |    |
 |:-------|:--------------------------------------------|
-| **2022** | [A Computadic Introduction to Shulman's Practical Type Theory and Variations for Semicartesian and Markov Categories](/talks/2022-12-19-computadic-intro-to-shulmans-ptt.html). Berkeley Seminar, Topos Institute. |
-| **2021** | [Weighted Limits in the 2-Category of Categories with Arities and a 2-Categorical Treatment of Spectrification](/talks/2021-12-15-weighted-limits-categories-arities.html). Australian Kittens 2021: an ECR Conference, University of Melbourne. |
-| **2021** | [Spectra as Locally Finite Pointed Z-groupoids](/talks/2021-11-10-spectra-locally-finite-groupoids.html). Melbourne Topology Seminar, University of Melbourne. |
-| **2020** | Progress Towards a ‘Practical Type Theory’ for Symmetric Monoidal Bi-categories. Séminaire Sémantique, IRIF. |
-| **2020** | A Revisionist History of (Cisinski) Model Categories. Pure Math Seminar, University of New South Wales. |
-| **2020** | Shulman’s Practical Type Theory for Symmetric Monoidal Categories (with N. Dicaire). Applied Category Theory Adjoint School, Massachusetts Institute of Technology. |
-| **2019** | Spectra are Locally Finite Z-groupoids. Geometry in Modal Homotopy Type Theory, Carnegie Mellon University. |
-| **2018** | Fibrations and the Yoneda Lemma in Synthetic Higher Category Theory. Talbot 2018: Model-independent theory of ∞-categories, Massachusetts Institute of Technology. |
-| **2015** | The Unstable A¹-homotopy category. K-Theory Summer School, University of Southern California. |
-| **2014** | “Semi-simplicial complexes and Postnikov systems” (after Moore). Algebraic Topology Summer School, Mathematical Sciences Research Institute. |
+| **2022** | [A Computadic Introduction to Shulman's Practical Type Theory and Variations for Semicartesian and Markov Categories](/talks/2022-computadic-intro-to-shulmans-ptt.html). Berkeley Seminar, Topos Institute. |
+| **2021** | [Weighted Limits in the 2-Category of Categories with Arities and a 2-Categorical Treatment of Spectrification](/talks/2021-weighted-limits-categories-arities.html). Australian Kittens 2021: an ECR Conference, University of Melbourne. |
+| **2021** | [Spectra as Locally Finite Pointed Z-groupoids](/talks/2021-spectra-locally-finite-groupoids.html). Melbourne Topology Seminar, University of Melbourne. |
+| **2020** | [Progress Towards a 'Practical Type Theory' for Symmetric Monoidal Bi-categories](/talks/2020-progress-towards-practical-type-theory.html). Séminaire Sémantique, IRIF. |
+| **2020** | [A Revisionist History of (Cisinski) Model Categories](/talks/2020-revisionist-history-cisinski-model-categories.html). Pure Math Seminar, University of New South Wales. |
+| **2020** | [Shulman's Practical Type Theory for Symmetric Monoidal Categories](/talks/2020-shulman-practical-type-theory-symmetric-monoidal.html) (with N. Dicaire). Applied Category Theory Adjoint School, Massachusetts Institute of Technology. |
+| **2019** | [Spectra are Locally Finite Z-groupoids](/talks/2019-spectra-locally-finite-z-groupoids.html). Geometry in Modal Homotopy Type Theory, Carnegie Mellon University. |
+| **2018** | [Fibrations and the Yoneda Lemma in Synthetic Higher Category Theory](/talks/2018-fibrations-yoneda-lemma-synthetic-higher-category.html). Talbot 2018: Model-independent theory of ∞-categories, Massachusetts Institute of Technology. |
+| **2015** | [The Unstable A¹-homotopy category](/talks/2015-unstable-a1-homotopy-category.html). K-Theory Summer School, University of Southern California. |
+| **2014** | ["Semi-simplicial complexes and Postnikov systems" (after Moore)](/talks/2014-semi-simplicial-complexes-postnikov-systems.html). Algebraic Topology Summer School, Centro de Investigaciones Matematicales / Mathematical Sciences Research Institute. |
 
 #### Selected talks
 
 |    |    |    |
 |:-------|:--------------------------------------------|
-| **2021** | The Lax-Shuffle Decomposition and the Cartesian←Gray→Shift Span. Australian Category Theory Seminar, Macquarie University. |
-| **2021** | A Question About Homotopies of Product Systems, prefaced with an introduction to A¹/Motivic Homotopy Theory and Østvaer’s motivic-style homotopy theory of C⋆-algebras. Australian Category Theory Seminar, Macquarie University. |
-| **2020** | Elements for Structuralists, Shulman’s Practical Type Theory for Symmetric Monoidal Categories, and sketches of a 2‑PTT for Symmetric Monoidal Bi‑Categories (pt. 3). Australian Category Theory Seminar, Macquarie University. |
-| **2020** | Elements for Structuralists, Shulman’s Practical Type Theory for Symmetric Monoidal Categories, and sketches of a 2‑PTT for Symmetric Monoidal Bi‑Categories (pt. 2). Australian Category Theory Seminar, Macquarie University. |
-| **2020** | Elements for Structuralists, Shulman’s Practical Type Theory for Symmetric Monoidal Categories, and sketches of a 2‑PTT for Symmetric Monoidal Bi‑Categories (pt. 1). Australian Category Theory Seminar, Macquarie University. |
-| **2020** | Spectra as Locally Finite Z‑groupoids (pt. 5). Australian Category Theory Seminar, Macquarie University. |
-| **2020** | Spectra as Locally Finite Z‑groupoids (pt. 4). Australian Category Theory Seminar, Macquarie University. |
-| **2020** | Spectra as Locally Finite Z‑groupoids (pt. 3). Australian Category Theory Seminar, Macquarie University. |
-| **2019** | Spectra as Locally Finite Z‑groupoids (pt. 2). Australian Category Theory Seminar, Macquarie University. |
-| **2019** | Spectra as Locally Finite Z‑groupoids (pt. 1). Australian Category Theory Seminar, Macquarie University. |
-| **2019** | Higher Categories and Grothendieck’s Homotopy Hypothesis. Topology Seminar, University of Colorado, Boulder. |
-| **2018** | A Cellular Suspension Functor for a New Presentation of Spectra. Topology Seminar, University of Colorado, Boulder. |
-| **2018** | Quillen’s Theorem A and Grothendieck’s Asphericité. Topology Seminar, University of Colorado, Boulder. |
-| **2018** | Of Colimits, Sifted and Not, and the Naturalness of Algebraic Theories. Slow‑pitch Seminar, University of Colorado, Boulder. |
-| **2017** | Symmetric Spectra (Part II). Topology Seminar, University of Colorado, Boulder. |
-| **2017** | Symmetric Spectra (Part I). Topology Seminar, University of Colorado, Boulder. |
-| **2017** | Reverse Engineering Continuity from Sheaves, and Composition Laws Encoded as Sheaves: From Grothendieck Topologies to Globular Theories. Topology Seminar, University of Colorado, Boulder. |
-| **2016** | An Idiosyncratic Introduction to Homotopy Type Theory and Synthetic Algebraic Topology. Slow‑pitch Seminar, University of Colorado, Boulder. |
-| **2015** | From Taylor Series to Étale Morphisms: The étale topology for analysts. Slow‑pitch Seminar, University of Colorado, Boulder. |
+| **2021** | [The Lax-Shuffle Decomposition and the Cartesian←Gray→Shift Span](/talks/2021-lax-shuffle-decomposition-cartesian-gray-shift-span.html). Australian Category Seminar, Macquarie University. |
+| **2021** | [A Question About Homotopies of Product Systems, prefaced with an introduction to A¹/Motivic Homotopy Theory and Østvaer's motivic-style homotopy theory of C⋆-algebras](/talks/2021-question-homotopies-product-systems.html). Australian Category Seminar, Macquarie University. |
+| **2020** | [Elements for Structuralists, Shulman's Practical Type Theory for Symmetric Monoidal Categories, and sketches of a 2‑PTT for Symmetric Monoidal Bi‑Categories (pt. 3)](/talks/2020-elements-for-structuralists-series.html). Australian Category Seminar, Macquarie University. |
+| **2020** | [Elements for Structuralists, Shulman's Practical Type Theory for Symmetric Monoidal Categories, and sketches of a 2‑PTT for Symmetric Monoidal Bi‑Categories (pt. 2)](/talks/2020-elements-for-structuralists-series.html). Australian Category Seminar, Macquarie University. |
+| **2020** | [Elements for Structuralists, Shulman's Practical Type Theory for Symmetric Monoidal Categories, and sketches of a 2‑PTT for Symmetric Monoidal Bi‑Categories (pt. 1)](/talks/2020-elements-for-structuralists-series.html). Australian Category Seminar, Macquarie University. |
+| **2020** | [Spectra as Locally Finite Z‑groupoids (pt. 5)](/talks/2019-2020-spectra-locally-finite-z-groupoids-series.html). Australian Category Seminar, Macquarie University. |
+| **2020** | [Spectra as Locally Finite Z‑groupoids (pt. 4)](/talks/2019-2020-spectra-locally-finite-z-groupoids-series.html). Australian Category Seminar, Macquarie University. |
+| **2020** | [Spectra as Locally Finite Z‑groupoids (pt. 3)](/talks/2019-2020-spectra-locally-finite-z-groupoids-series.html). Australian Category Seminar, Macquarie University. |
+| **2019** | [Spectra as Locally Finite Z‑groupoids (pt. 2)](/talks/2019-2020-spectra-locally-finite-z-groupoids-series.html). Australian Category Seminar, Macquarie University. |
+| **2019** | [Spectra as Locally Finite Z‑groupoids (pt. 1)](/talks/2019-2020-spectra-locally-finite-z-groupoids-series.html). Australian Category Seminar, Macquarie University. |
+| **2019** | [Higher Categories and Grothendieck's Homotopy Hypothesis](/talks/2019-higher-categories-grothendieck-homotopy-hypothesis.html). Topology Seminar, University of Colorado, Boulder. |
+| **2018** | [A Cellular Suspension Functor for a New Presentation of Spectra](/talks/2018-cellular-suspension-functor-new-presentation-spectra.html). Topology Seminar, University of Colorado, Boulder. |
+| **2018** | [Quillen's Theorem A and Grothendieck's Asphericité](/talks/2018-quillen-theorem-a-grothendieck-asphericite.html). Topology Seminar, University of Colorado, Boulder. |
+| **2018** | [Of Colimits, Sifted and Not, and the Naturalness of Algebraic Theories](/talks/2018-colimits-sifted-naturalness-algebraic-theories.html). Slow‑pitch Seminar, University of Colorado, Boulder. |
+| **2017** | [Symmetric Spectra (Part II)](/talks/2017-symmetric-spectra-part-ii.html). Topology Seminar, University of Colorado, Boulder. |
+| **2017** | [Symmetric Spectra (Part I)](/talks/2017-symmetric-spectra-part-i.html). Topology Seminar, University of Colorado, Boulder. |
+| **2017** | [Reverse Engineering Continuity from Sheaves, and Composition Laws Encoded as Sheaves: From Grothendieck Topologies to Globular Theories](/talks/2017-reverse-engineering-continuity-sheaves-composition-laws.html). Topology Seminar, University of Colorado, Boulder. |
+| **2016** | [An Idiosyncratic Introduction to Homotopy Type Theory and Synthetic Algebraic Topology](/talks/2016-idiosyncratic-introduction-homotopy-type-theory-synthetic-algebraic-topology.html). Slow‑pitch Seminar, University of Colorado, Boulder. |
+| **2015** | [From Taylor Series to Étale Morphisms: The étale topology for analysts](/talks/2015-taylor-series-etale-morphisms-etale-topology-analysts.html). Slow‑pitch Seminar, University of Colorado, Boulder. |
