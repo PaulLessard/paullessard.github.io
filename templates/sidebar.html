@@ -9,8 +9,11 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item$if(home)$ active$endif$" href="/">Home</a>
-    <a class="sidebar-nav-item$if(blog)$ active$endif$" href="/blog/page1.html">Blog</a>
+        <a class="sidebar-nav-item$if(home)$ active$endif$" href="/">Home</a>
+        <a class="sidebar-nav-item$if(blog)$ active$endif$" href="/blog/page1.html">Blog</a>
+        <a class="sidebar-nav-item$if(talks)$ active$endif$" href="/blog/page1.html">Talks</a>
+        <a class="sidebar-nav-item$if(publications)$ active$endif$" href="/publications/blog.html">Publications</a>
+        <a class="sidebar-nav-item$if(projects)$ active$endif$" href="/blog/page1.html">Projects</a>
 
     <!--- The code below dynamically generates a sidebar nav of the files in the folder /pages -->
 
@@ -47,7 +50,7 @@
       </a>
     </div>
     <p>
-        <img src="/images/dom.png" class=logo 
+        <img src="/images/the_dark_judges.webp" class=logo 
              style="display: block; margin-left:auto; margin-right: auto; width: 60%"/>
         Site created with
         <a href="https://jaspervdj.be/hakyll" target="_blank" rel="noopener noreferrer">Hakyll</a>.

@@ -73,7 +73,6 @@ main = hakyllWith config $ do
                 >>= loadAndApplyTemplate "templates/default.html" (activeSidebarCtx <> siteCtx)
                 >>= relativizeUrls
 
-    -- Temporarily disabled PDF generation for CV.md due to LaTeX compilation issues
     -- match "pages/CV.md" $ version "pdf" $ do
     --     route $ setExtension "pdf"
     --     compile $ getUnderlying 
@@ -99,48 +98,44 @@ main = hakyllWith config $ do
                 >>= loadAndApplyTemplate "templates/default.html" (baseSidebarCtx <> siteCtx)
                 >>= relativizeUrls
 
-    match "posts/*" $ version "ast" $
-        compile compileToPandocAST
-
-    match "posts/*" $ do
-        route $ setExtension "html"
-        compile $ do
-            pdfFileName <- flip replaceExtension "pdf" . takeFileName . toFilePath <$> getUnderlying
-            getUnderlying
-                >>= loadBody . setVersion (Just "ast")
+    -- Generic function for content processing
+    createContentSection :: String -> String -> String -> String -> Rules ()
+    createContentSection pattern astVersion htmlTemplate pdfTemplate = do
+        -- AST version
+        match pattern $ version astVersion $
+            compile compileToPandocAST
+        
+        -- HTML version  
+        match pattern $ do
+            route $ setExtension "html"
+            compile $ do
+                pdfFileName <- flip replaceExtension "pdf" . takeFileName . toFilePath <$> getUnderlying
+                getUnderlying
+                    >>= loadBody . setVersion (Just astVersion)
+                    >>= makeItem
+                    >>= renderPandocASTtoHTML
+                    >>= \item -> do
+                            teaser <- makeTeaser item
+                            saveSnapshot "teaser" teaser
+                            saveSnapshot "content" item
+                    >>= loadAndApplyTemplate htmlTemplate (postCtxWithTags tags <>
+                                                            constField "pdf-filename" pdfFileName)
+                    >>= loadAndApplyTemplate "templates/default.html" (baseSidebarCtx <> siteCtx)
+                    >>= relativizeUrls
+        
+        -- PDF version
+        match pattern $ version "pdf" $ do
+            route $ setExtension "pdf"
+            compile $ getUnderlying 
+                >>= loadBody . setVersion (Just astVersion)
                 >>= makeItem
-                >>= renderPandocASTtoHTML
-                >>= \post -> do
-                        teaser <- makeTeaser post
-                        saveSnapshot "teaser" teaser
-                        saveSnapshot "content" post
-                >>= loadAndApplyTemplate "templates/post.html" (postCtxWithTags tags <>
-                                                                    constField "pdf-filename" pdfFileName)
-                >>= loadAndApplyTemplate "templates/default.html" (baseSidebarCtx <> siteCtx)
-                >>= relativizeUrls
+                >>= renderPandocASTtoPDF
 
-    -- Temporarily disabled PDF generation for posts due to LaTeX compilation issues
-    -- match "posts/*" $ version "pdf" $ do
-    --     route $ setExtension "pdf"
-    --     compile $ getUnderlying 
-    --         >>= loadBody . setVersion (Just "ast")
-    --         >>= makeItem
-    --         >>= renderPandocASTtoPDF
-
-    -- Talks rules (similar to posts)
-    match "talks/*" $ version "ast" $
-        compile compileToPandocAST
-
-    match "talks/*" $ do
-        route $ setExtension "html"
-        compile $ do
-            getUnderlying
-                >>= loadBody . setVersion (Just "ast")
-                >>= makeItem
-                >>= renderPandocASTtoHTML
-                >>= loadAndApplyTemplate "templates/talk.html" (talkCtx <> siteCtx)
-                >>= loadAndApplyTemplate "templates/default.html" (baseSidebarCtx <> siteCtx)
-                >>= relativizeUrls
+    -- Create content sections
+    createContentSection "posts/*" "ast" "templates/post.html" "pdf"
+    createContentSection "talks/*" "ast" "templates/talk.html" "pdf"
+    createContentSection "publications/*" "ast" "templates/publication.html" "pdf"
+    createContentSection "projects/*" "ast" "templates/project.html" "pdf"
 
     create ["index.html"] $ do
         route idRoute
@@ -179,7 +174,7 @@ main = hakyllWith config $ do
                 >>= loadAndApplyTemplate "templates/default.html" (baseSidebarCtx <> archiveCtx)
                 >>= relativizeUrls
 
-    paginate <- buildPaginateWith postsGrouper ("posts/*" .&&. hasNoVersion) postsPageId
+    paginate <- buildPaginateWith paginator ("posts/*" .&&. hasNoVersion) postsPageId
 
     paginateRules paginate $ \ page pat -> do
         route idRoute
@@ -218,11 +213,23 @@ main = hakyllWith config $ do
 
 --------------------------------------------------------------------------------
 
-postsGrouper :: (MonadFail m, MonadMetadata m) => [Identifier] -> m [[Identifier]]
-postsGrouper = fmap (paginateEvery 5) . sortRecentFirst
+paginator :: (MonadFail m, MonadMetadata m) => [Identifier] -> m [[Identifier]]
+paginator = fmap (paginateEvery 5) . sortRecentFirst
+
+pageId :: String -> PageNumber -> Identifier
+pageId dir n = fromFilePath $ dir ++ "/page" ++ show n ++ ".html"
 
 postsPageId :: PageNumber -> Identifier
-postsPageId n = fromFilePath $ "blog/page" ++ show n ++ ".html"
+postsPageId = pageId "blog"
+
+talksPageId :: PageNumber -> Identifier
+talksPageId = pageId "talks"
+
+publicationsPageId :: PageNumber -> Identifier
+publicationsPageId = pageId "publications"
+
+projectsPageId :: PageNumber -> Identifier
+projectsPageId = pageId "projects"
 
 makeTeaserWithSeparator :: String -> Item String -> Compiler (Item String)
 makeTeaserWithSeparator separator item =
@@ -240,29 +247,29 @@ makeTeaser = makeTeaserWithSeparator teaserSeparator
 
 --------------------------------------------------------------------------------
 
-feedConfig :: FeedConfiguration
-feedConfig = FeedConfiguration
-    { feedTitle       = "Paul Lessard"
-    , feedDescription = "A blog about category theory, deep learning, and techno-feudalism"
-    , feedAuthorName  = "Paul Lessard"
-    , feedAuthorEmail = "paulrlessard@gmail.com"
-    , feedRoot        = "https://paul-lessard.github.io"
-    }
+-- feedConfig :: FeedConfiguration
+-- feedConfig = FeedConfiguration
+--     { feedTitle       = "synthetic"
+--     , feedDescription = "A blog about higher category theory and life"
+--     , feedAuthorName  = "Dominic Verity"
+--     , feedAuthorEmail = "dominic.verity@mq.edu.au"
+--     , feedRoot        = "https://dom-verity.github.io"
+--     }
 
 --------------------------------------------------------------------------------
 
 siteCtx :: Context String
 siteCtx =
-    constField "site-description" "Paul Lessard - Research Mathematician"         <>
-    constField "site-url" "https://paul-lessard.github.io"                         <>
-    constField "tagline" "Categories, Types, Spaces, and Knowledge" <>
-    constField "site-title" "Paul Lessard"                                        <>
+    constField "site-description" "Paul Lessard - Research Mathematician"                        <>
+    constField "site-url" "https://dom-verity.github.io"                          <>
+    constField "tagline" "Categories, Types, Space and Knowledge"              <>
+    constField "site-title" "Paul Lessard"                                          <>
     constField "copy-year" "2025"                                                 <>
-    constField "site-author" "Paul Lessard"                                       <>
-    constField "site-email" "paulrlessard@gmail.com"                             <>
-    constField "github-url" "https://github.com/paul-lessard"                      <>
+    constField "site-author" "Paul Lessard"                                         <>
+    constField "site-email" "paulrlessard@gmail.com"                            <>
+    constField "github-url" "https://github.com/paul-lessard"                       <>
     constField "github-repo" "https://github.com/paul-lessard/paul-lessard.github.io" <>
-    constField "twitter-url" "https://x.com/PaulRoyLessard"                    <>
+    constField "twitter-url" "https://twitter.com/PaulRoyLessard"                      <>
     defaultContext
 
 --------------------------------------------------------------------------------
@@ -275,12 +282,6 @@ postCtx =
 
 postCtxWithTags :: Tags -> Context String
 postCtxWithTags tags = makeTagsField "tags" tags <> postCtx
-
-talkCtx :: Context String
-talkCtx =
-    dateField "date" "%B %e, %Y" <>
-    modificationTimeField "modified" "%B %e, %Y" <>
-    defaultContext
 
 makeTagLink :: String -> FilePath -> H.Html
 makeTagLink tag filePath =

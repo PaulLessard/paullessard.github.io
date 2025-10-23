@@ -1,6 +1,6 @@
 ---
 title: Elements for Structuralists, Shulman's Practical Type Theory for Symmetric Monoidal Categories, and sketches of a 2‑PTT for Symmetric Monoidal Bi‑Categories
-date: 2020
+date: January 1, 2020
 venue: Australian Category Seminar, Macquarie University
 location: Sydney, Australia
 ---
@@ -37,6 +37,8 @@ as a type theory with a term calculus which extends this program to symmetric mo
 - Describe how the computads of Street, Batanin, et al. and the strictification results of Schommer-Pries pave the way towards higher dimensional variants of Shulman's PTT and a synthetic treatment of symmetric monoidal bicategories, etc.
 
 (this last topic will cover joint work with Nuiok Dicaire, Zeinab Galal, Paige North, Mike Shulman, and Sam Speight)
+
+<!--more-->
 
 ## Notes
 

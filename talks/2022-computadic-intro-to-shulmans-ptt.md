@@ -1,6 +1,6 @@
 ---
 title: "A Sketch of a Program for a Type System for Probabilistic Conformational Molecular Computing, A Computadic Introduction to Shulman's PTT, and Variations on PTT for Semicartesian and Markov Categories"
-date: 2022-12-19
+date: December 19, 2022
 venue: "Berkeley Seminar"
 institution: "TOPOS INSTITUTE"
 type: "invited"

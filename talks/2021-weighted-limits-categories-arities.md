@@ -1,6 +1,6 @@
 ---
 title: "Weighted Limits in the 2-Category of Categories with Arities and a 2-Categorical Treatment of Spectrification"
-date: 2021-12-15
+date: December 15, 2021
 venue: "Australian Kittens 2021: an ECR Conference"
 institution: "University of Melbourne"
 type: "conference"

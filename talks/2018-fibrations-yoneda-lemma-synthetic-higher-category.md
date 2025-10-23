@@ -1,6 +1,6 @@
 ---
 title: Fibrations and the Yoneda Lemma in Synthetic Higher Category Theory
-date: 2018
+date: January 1, 2018
 venue: Talbot 2018 - Model-independent theory of infinity-categories, Massachusetts Institute of Technology
 location: Government Camp, Oregon, USA
 ---
@@ -35,6 +35,7 @@ This is one of the best talks I ever gave, and the notes are in storage unit in 
 
 ## Notes
 
+<!--more-->
 This talk was part of [Talbot 2018 at MIT](https://math.mit.edu/events/talbot/index.php?year=2018), focusing on model-independent approaches to ∞-category theory. 
 
 Running since 2004, the Talbot workshop is an annual mathematical retreat. It brings together a group of graduate students and postdoctoral researchers with two faculty mentors. The participants engage in a week-long, intensive exploration of a single topic of contemporary research interest. The Talbot workshops have introduced aspiring mathematicians in a variety of disciplines (and from diverse institutions and backgrounds) to vibrant areas of research, fostering collaboration between fields and forging strong pedagogical and research ties between established mathematicians and young researchers.

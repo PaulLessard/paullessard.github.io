@@ -1,6 +1,6 @@
 ---
 title: An Idiosyncratic Introduction to Homotopy Type Theory and Synthetic Algebraic Topology
-date: 2016
+date: January 1, 2016
 venue: Slow‑pitch Seminar, University of Colorado, Boulder
 location: Boulder, Colorado, USA
 ---
@@ -12,6 +12,8 @@ We'll begin by asking innocent questions; we'll confront the wildness of our ass
 We'll abstract human judgement and find that, "it's full of stars."
 
 Homotopy Type Theory is a new foundations for mathematics. HoTT synthesizes the intuitionism of Brouwer, Martin Lof's type theory ( a formal syntax for constructive mathematical reasoning ), Voevodsky's "construction" of a "small universe", Kant's contraposition of analytic and synthetic reason, and the Yoneda Lemma.
+
+<!--more-->
 
 ## Notes
 

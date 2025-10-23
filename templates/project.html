@@ -1,0 +1,23 @@
+<div class="project">
+  <h1 class="project-title">
+      <a href="$url$">
+        $title$
+      </a>
+    </h1>
+    <div class="project-metadata">
+        <span class="project-date">
+          Date: $date$<br/>
+          Last modified: $modified$
+        </span>
+        $if(venue)$
+          <br/>Venue: $venue$
+        $endif$
+        $if(institution)$
+          <br/>Institution: $institution$
+        $endif$
+        $if(kind)$
+          <br/>Kind: $kind$
+        $endif$
+    </div>
+    $body$
+</div>

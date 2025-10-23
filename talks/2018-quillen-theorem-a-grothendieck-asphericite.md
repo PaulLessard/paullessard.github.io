@@ -1,6 +1,6 @@
 ---
 title: Quillen's Theorem A and Grothendieck's Asphericité
-date: 2018
+date: January 1, 2018
 venue: Topology Seminar, University of Colorado, Boulder
 location: Boulder, Colorado, USA
 ---
@@ -25,4 +25,5 @@ model spaces by way of the universal property of the Yoneda embedding.
 
 ## Notes
 
+<!--more-->
 This talk was part of the [Topology Seminar](https://math.colorado.edu/seminars/?date=2018-04-24) series at the University of Colorado, Boulder.

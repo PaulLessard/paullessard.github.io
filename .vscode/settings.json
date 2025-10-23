@@ -2,7 +2,7 @@
     "cSpell.enabled": false,
     "latex-workshop.latex.autoBuild.run": "never",
     "svg.preview.background": "transparent",
-    "workbench.colorTheme": "Solarized Light",
+    "workbench.colorTheme": "Default Dark Modern",
     "prettifySymbolsMode.prettyCursor": "none",
     "prettifySymbolsMode.revealOn": "active-line",
 }

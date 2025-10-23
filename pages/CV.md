@@ -5,6 +5,7 @@ date: 21^st^ October 2025
 ---
 
 ## Paul Lessard
+
 Carlton North\
 VIC 3054, Australia\
 
@@ -14,8 +15,9 @@ Homepage: <https://paul-lessard.github.io>
 ### Essence
 
 Research Mathematician with expertise in:
+
 - Homotopy theory;
-- Category theory; 
+- Category theory;
 - Algebraic and differential geometry; and
 - Deep learning and machine learning
 
@@ -55,21 +57,20 @@ Homotopy Theory • Category Theory • Algebraic Geometry • Differential Geom
 
 |    |    |    |
 |:-------|:--------------------------------------------|
-| **2021** | *Scariest (Pseudo)-Commutative Diagram Award*, Australian Kittens: an ECR Conference, University of Melbourne, Melbourne, Victoria, AUS. |
-| **2021** | *Abstract Nonsense Award*, Australian Kittens: an ECR Conference, University of Melbourne, Melbourne, Victoria, AUS. |
-| **2020** | *Applied Category Theory Adjoint School*, Mentored by: Mike Shulman, Massachusetts Institute of Technology, Cambridge, Massachusetts, USA. |
-| **2019** | *Graduate Summer Research Fellowship*, University of Colorado, Boulder, Colorado, USA. |
-| **2018** | *Participant - Talbot 2018: Model-independent Theory of ∞-Categories*, Mentored by: Emily Riehl and Dominic Verity, Massachusetts Institute of Technology, Cambridge, Massachusetts, USA. |
-| **2018** | *Graduate Summer Research Fellowship*, University of Colorado, Boulder, Colorado, USA. |
-| **2017** | *Participant - Mathematics Research Communities: Homotopy Type Theory*, Mentored by: Emily Riehl and Mike Shulman, American Mathematical Society, Providence, Rhode Island, USA. |
-| **2017** | *Graduate Summer Research Fellowship*, University of Colorado, Boulder, Colorado, USA. |
-| **2016** | *Graduate Summer Research Fellowship*, University of Colorado, Boulder, Colorado, USA. |
-| **2015** | *Participant - K-Theory Summer School*, University of Southern California, Los Angeles, California, USA. |
-| **2015** | *Graduate Summer Research Fellowship*, University of Colorado, Boulder, Colorado, USA. |
-| **2014** | *Participant - Summer Graduate School: Algebraic Topology*, Mentored by: [Mike Hill](https://mikehill.math.umn.edu/) and [Jose Cantarero Lopez](https://www.cimat.mx/~cantarero/indexSpa.html), Centro de Investigación en Matemáticas A.C. & Mathematical Sciences Research Institute, Guanajuato, MEX & Berkeley, California, USA. |
-| **2014** | *Graduate Summer Research Fellowship*, University of Colorado, Boulder, Colorado, USA. |
-| **2011-2012** | *Graduate Research Fellowship*, Funded by NASA research grant: #06811191, Vermont Advanced Computing Center & Complex Systems Center, University of Vermont, Burlington, Vermont, USA. |
-
+| **2021** | _Scariest (Pseudo)-Commutative Diagram Award_, Australian Kittens: an ECR Conference, University of Melbourne, Melbourne, Victoria, AUS. |
+| **2021** | _Abstract Nonsense Award_, Australian Kittens: an ECR Conference, University of Melbourne, Melbourne, Victoria, AUS. |
+| **2020** | _Applied Category Theory Adjoint School_, Mentored by: Mike Shulman, Massachusetts Institute of Technology, Cambridge, Massachusetts, USA. |
+| **2019** | _Graduate Summer Research Fellowship_, University of Colorado, Boulder, Colorado, USA. |
+| **2018** | _Participant - Talbot 2018: Model-independent Theory of ∞-Categories_, Mentored by: Emily Riehl and Dominic Verity, Massachusetts Institute of Technology, Cambridge, Massachusetts, USA. |
+| **2018** | _Graduate Summer Research Fellowship_, University of Colorado, Boulder, Colorado, USA. |
+| **2017** | _Participant - Mathematics Research Communities: Homotopy Type Theory_, Mentored by: Emily Riehl and Mike Shulman, American Mathematical Society, Providence, Rhode Island, USA. |
+| **2017** | _Graduate Summer Research Fellowship_, University of Colorado, Boulder, Colorado, USA. |
+| **2016** | _Graduate Summer Research Fellowship_, University of Colorado, Boulder, Colorado, USA. |
+| **2015** | _Participant - K-Theory Summer School_, University of Southern California, Los Angeles, California, USA. |
+| **2015** | _Graduate Summer Research Fellowship_, University of Colorado, Boulder, Colorado, USA. |
+| **2014** | _Participant - Summer Graduate School: Algebraic Topology_, Mentored by: [Mike Hill](https://mikehill.math.umn.edu/) and [Jose Cantarero Lopez](https://www.cimat.mx/~cantarero/indexSpa.html), Centro de Investigación en Matemáticas A.C. & Mathematical Sciences Research Institute, Guanajuato, MEX & Berkeley, California, USA. |
+| **2014** | _Graduate Summer Research Fellowship_, University of Colorado, Boulder, Colorado, USA. |
+| **2011-2012** | _Graduate Research Fellowship_, Funded by NASA research grant: #06811191, Vermont Advanced Computing Center & Complex Systems Center, University of Vermont, Burlington, Vermont, USA. |
 
 ## Publications & talks
 
@@ -93,11 +94,6 @@ Homotopy Theory • Category Theory • Algebraic Geometry • Differential Geom
 |    |    |    |
 |:-------|:--------------------------------------------|
 | **2022-2023** | [[On the Combinatorics of the Gray Cylinder]{.smallcaps}](https://arxiv.org/abs/2206.13725), *Higher Structures*. In revision April 2023, Submitted July 2022. |
-
-<!-- ### Preprint
-
-|    |    |    |
-|:-------|:--------------------------------------------| -->
 
 #### Posts
 

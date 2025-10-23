@@ -1,6 +1,6 @@
 ---
 title: Spectra as Locally Finite Z-groupoids
-date: 2019-2020
+date: January 1, 2019
 venue: Australian Category Seminar, Macquarie University
 location: Sydney, Australia
 ---
@@ -62,4 +62,5 @@ Lastly, we'll describe, in some detail, a re-imagining of Kan's combinatorial de
 
 ## Notes
 
+<!--more-->
 This series was part of the [Australian Category Seminar](https://centre-of-australian-category-theory.github.io/seminar/) at Macquarie University.

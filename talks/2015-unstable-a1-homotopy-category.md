@@ -1,6 +1,6 @@
 ---
 title: The Unstable A1-homotopy category
-date: 2015
+date: January 1, 2015
 venue: K-Theory Summer School, University of Southern California
 location: Los Angeles, California, USA
 ---
@@ -8,6 +8,8 @@ location: Los Angeles, California, USA
 ## Abstract
 
 This talk developed the unstable A¹-homotopy category.
+
+<!--more-->
 
 
 ## Notes

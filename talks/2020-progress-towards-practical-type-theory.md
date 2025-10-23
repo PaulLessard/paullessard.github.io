@@ -1,6 +1,6 @@
 ---
 title: Progress Towards a 'Practical Type Theory' for Symmetric Monoidal Bi-categories
-date: 2020
+date: January 1, 2020
 venue: Séminaire Sémantique, IRIF
 location: Paris, France
 ---
@@ -12,6 +12,8 @@ In this talk I will:
 
 - motivate Shulman’s PTT and provide an introduction to that theory; and
 - describe progress towards a similar type theory for symmetric monoidal bi-categories.
+
+<!--more-->
 
 In particular, in this second part:
 

@@ -1,6 +1,6 @@
 ---
 title: "Spectra as Locally Finite Pointed Z-groupoids"
-date: 2021
+date: January 1, 2021
 venue: "Melbourne Topology Seminar"
 institution: "University of Melbourne"
 type: "seminar"
