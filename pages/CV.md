@@ -27,7 +27,6 @@ Paul Lessard is a Research Mathematician trained in homotopy theory, category th
 
 Homotopy Theory • Category Theory • Algebraic Geometry • Differential Geometry • Deep Learning • Machine Learning
 
-
 ## Appointments held
 
 |    |    |    |
