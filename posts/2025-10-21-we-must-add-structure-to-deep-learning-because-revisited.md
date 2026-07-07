@@ -1,7 +1,7 @@
 ---
 title: "We Must Add Structure to Deep Learning Because... Revisited"
 author: Paul Lessard
-date: December 20, 2021
+date: July 16, 2025
 tags: Categories, Deep Learning
 ---
 
