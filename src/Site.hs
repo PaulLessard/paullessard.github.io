@@ -187,7 +187,7 @@ main = hakyllWith config $ do
         compile $ do
             let posts = recentFirst =<< loadAllSnapshots (pat .&&. hasNoVersion) "teaser"
             let indexCtx =
-                    constField "title" ("Blog posts, page " ++ show page) <>
+                    constField "title" ("Phineas Gauge Theory, page " ++ show page) <>
                     listField "posts" postCtx posts                       <>
                     constField "blog" ""                                  <>
                     paginateContext paginate page                         <>
@@ -196,7 +196,7 @@ main = hakyllWith config $ do
             makeItem ""
                 >>= applyAsTemplate indexCtx
                 >>= loadAndApplyTemplate "templates/blog.html" indexCtx
-                >>= loadAndApplyTemplate "templates/default.html" (baseSidebarCtx <> indexCtx)
+                >>= loadAndApplyTemplate "templates/default.html" (indexCtx <> baseSidebarCtx)
                 >>= relativizeUrls
 
     match "templates/*" $ compile templateBodyCompiler
