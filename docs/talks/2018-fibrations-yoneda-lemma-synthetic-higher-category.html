@@ -11,7 +11,7 @@
 
   <title>
     
-      We Must Add Structure to Deep Learning Because... Revisited &middot; Paul Lessard
+      Fibrations and the Yoneda Lemma in Synthetic Higher Category Theory &middot; Paul Lessard
     
   </title>
 
@@ -142,41 +142,48 @@
       </div>
 
       <div class="container content">
-          <div class="post">
-  <h1 class="post-title">
-      <a href="../posts/2025-10-21-we-must-add-structure-to-deep-learning-because-revisited.html">
-        We Must Add Structure to Deep Learning Because... Revisited
+          <div class="talk">
+  <h1 class="talk-title">
+      <a href="../talks/2018-fibrations-yoneda-lemma-synthetic-higher-category.html">
+        Fibrations and the Yoneda Lemma in Synthetic Higher Category Theory
       </a>
     </h1>
-    <div class="pdf-version">
-        <a href="../posts/2025-10-21-we-must-add-structure-to-deep-learning-because-revisited.pdf" target="_blank" rel="noopener noreferrer">PDF version...</a>
-        <span>(for printing)</span>
+    <div class="talk-metadata">
+        <span class="talk-date">
+          Date: January  1, 2018<br />
+          Last modified: October 22, 2025
+        </span>
+        
+          <br />Venue: Talbot 2018 - Model-independent theory of infinity-categories, Massachusetts Institute of Technology
+        
+        
+        
     </div>
-    <span class="post-date">
-      Posted: December 20, 2021<br />
-      Last modified: October 25, 2025
-      
-        <br />Author: Paul Lessard
-      
-    </span>
-    <p>IS THE WATCH SERVER WORKING? Back in the heady days of March 2023 I did an <a href="https://www.youtube.com/watch?v=rie-9AEhYdY">interview</a> with Tim &amp; Keith of <a href="https://www.patreon.com/mlst">Machine Learning Street Talk</a>. In the year and half since I’ve learned a great deal; about machine learning, about business, and about antibiotics as rosacea treatment - you’ll see that I appear healthier in the second video.</p>
-<p>I did another very impromptu <a href="https://www.youtube.com/watch?v=TBjCvB_4mdo&amp;t=2340s">chat</a> with Tim and Keith in June of this year, the last time I visited Symbolica’s London office.</p>
-<p>While I think my outfit and hair are better in this second talk, the interview was far more all over the place. So I figured I’d give a shot at collecting the sensibility I’ve come to after a year and half of working as a category theorist in deep learning in an industrial as opposed to academic context.</p>
+    <h2 id="abstract">Abstract</h2>
+<p>The theory of cartesian or Grothendieck fibrations play a fundamental role in traditional internal category theory. For example, they arise naturally in the theory of modules to be developed in the subsequent talk, which may be described as
+certain spans whose legs are cartesian fibrations and in the theory of fibred (or indexed) categories
+over a base.</p>
+<p>Joyal and Lurie both introduce a cartesian fibration notion for quasi-categories, described in
+terms of certain outer horn lifting properties. We can generalise that notion representably to an
+arbitrary ∞-cosmos 𝒦; that is to say we might adopt the definition that a fibration 𝑝 ∶ 𝐸 → 𝐵 in 𝒦
+is a cartesian fibration if and only if for all objects 𝑋 ∈ 𝒦 the functor Fun(𝑋, 𝑝) ∶ Fun(𝑋, 𝐸) →
+Fun(𝑋, 𝐵) of hom-spaces is itself a cartesian fibration of quasi-categories and if any 𝑌 → 𝑋 ∈ 𝒦
+defines a cartesian functor between these cartesian fibrations.</p>
+<p>As is our wont, however, we choose to take a more 2-categorical approach to this subject, by
+defining cartesian fibrations in terms of adjunctions and comma objects. We establish an equivalence between three characterisations of these structures defined internally to the homotopy 2-category. We also discuss groupoidal cartesian fibrations (called right fibrations by Joyal and Lurie),
+whose properties and applications mirror those of discrete fibrations in 1-category theory.
+Now given a point 𝑏 ∶ 1 → 𝐵 of an ∞-category, our categorical experience draws us to regarding
+the associated projection 𝑝𝐵 ∶ 𝐵 ↓𝑏 → 𝐵 as being the representable cartesian fibration defined by 𝑏.
+To validate that intuition, we discuss how the (external) Yoneda lemma may be formulated in this
+context and we prove that result.2 This proof takes place entirely within the homotopy 2-category
+of our cosmos, as indeed do most of the proofs referenced in this talk.</p>
+<p>References: [RV4, §4-6], [J], [L1, §2], [RV, chapter 5].</p>
+<h2 id="slides">Slides</h2>
+<p>This is one of the best talks I ever gave, and the notes are in storage unit in Vermont. One day, I will get them!</p>
+<h2 id="notes">Notes</h2>
 <!--more-->
-<h2 id="moritz-hardts-book">Moritz Hardt’s Book</h2>
-<p>The book I was plugging of Hardt’s is this: <a href="https://mlbenchmarks.org/">The Emerging Science of Machine Learning Benchmarks</a> The kind of book I wish I knew enough to write!</p>
-<div style="float: right; margin: 0 0 0.5cm 0.5cm; width: 25%;">
-<pre><code>&lt;img src=&quot;images/rice-and-peas.png&quot; alt=&quot;Rice and Peas&quot; style=&quot;width: 100%;&quot; /&gt;
-&lt;p style=&quot;font-size: 0.8em; text-align: center; margin-top: 0.5em;&quot;&gt;
-    &lt;em&gt;Image (c) 2020 &lt;a href=&quot;https://www.sweetandsorrel.com&quot;&gt;Sweet and Sorrel&lt;/a&gt;&lt;/em&gt;
-&lt;/p&gt;</code></pre>
-</div>
-
-    
-    <div itemprop="keywords" class="tags">
-        <a title="All posts tagged 'Categories'." href="../tags/Categories.html" class="tag">Categories</a><a title="All posts tagged 'Deep Learning'." href="../tags/Deep%20Learning.html" class="tag">Deep Learning</a>
-    </div>
-    
+<p>This talk was part of <a href="https://math.mit.edu/events/talbot/index.php?year=2018">Talbot 2018 at MIT</a>, focusing on model-independent approaches to ∞-category theory.</p>
+<p>Running since 2004, the Talbot workshop is an annual mathematical retreat. It brings together a group of graduate students and postdoctoral researchers with two faculty mentors. The participants engage in a week-long, intensive exploration of a single topic of contemporary research interest. The Talbot workshops have introduced aspiring mathematicians in a variety of disciplines (and from diverse institutions and backgrounds) to vibrant areas of research, fostering collaboration between fields and forging strong pedagogical and research ties between established mathematicians and young researchers.</p>
 </div>
 
       </div>

@@ -99,43 +99,49 @@ main = hakyllWith config $ do
                 >>= relativizeUrls
 
     -- Generic function for content processing
-    createContentSection :: String -> String -> String -> String -> Rules ()
-    createContentSection pattern astVersion htmlTemplate pdfTemplate = do
-        -- AST version
-        match pattern $ version astVersion $
-            compile compileToPandocAST
-        
-        -- HTML version  
-        match pattern $ do
-            route $ setExtension "html"
-            compile $ do
-                pdfFileName <- flip replaceExtension "pdf" . takeFileName . toFilePath <$> getUnderlying
-                getUnderlying
-                    >>= loadBody . setVersion (Just astVersion)
-                    >>= makeItem
-                    >>= renderPandocASTtoHTML
-                    >>= \item -> do
-                            teaser <- makeTeaser item
-                            saveSnapshot "teaser" teaser
-                            saveSnapshot "content" item
-                    >>= loadAndApplyTemplate htmlTemplate (postCtxWithTags tags <>
-                                                            constField "pdf-filename" pdfFileName)
-                    >>= loadAndApplyTemplate "templates/default.html" (baseSidebarCtx <> siteCtx)
-                    >>= relativizeUrls
-        
-        -- PDF version
-        match pattern $ version "pdf" $ do
-            route $ setExtension "pdf"
-            compile $ getUnderlying 
-                >>= loadBody . setVersion (Just astVersion)
-                >>= makeItem
-                >>= renderPandocASTtoPDF
+    let createContentSection :: String -> String -> String -> Rules ()
+        createContentSection sectionName astVersion htmlTemplate = do
+            -- AST version
+            match (fromGlob sectionName) $ version astVersion $
+                compile compileToPandocAST
+            
+            -- HTML version  
+            match (fromGlob sectionName) $ do
+                route $ setExtension "html"
+                compile $ do
+                    pdfFileName <- flip replaceExtension "pdf" . takeFileName . toFilePath <$> getUnderlying
+                    getUnderlying
+                        >>= loadBody . setVersion (Just astVersion)
+                        >>= makeItem
+                        >>= renderPandocASTtoHTML
+                        >>= \item -> do
+                                teaser <- makeTeaser item
+                                saveSnapshot "teaser" teaser
+                                saveSnapshot "content" item
+                        >>= loadAndApplyTemplate (fromFilePath htmlTemplate) (postCtxWithTags tags <>
+                                                                constField "pdf-filename" pdfFileName)
+                        >>= loadAndApplyTemplate "templates/default.html" (baseSidebarCtx <> siteCtx)
+                        >>= relativizeUrls
 
-    -- Create content sections
-    createContentSection "posts/*" "ast" "templates/post.html" "pdf"
-    createContentSection "talks/*" "ast" "templates/talk.html" "pdf"
-    createContentSection "publications/*" "ast" "templates/publication.html" "pdf"
-    createContentSection "projects/*" "ast" "templates/project.html" "pdf"
+            -- PDF version
+            -- match pattern $ version "pdf" $ do
+            --     route $ setExtension "pdf"
+            --     compile $ getUnderlying 
+            --         >>= loadBody . setVersion (Just astVersion)
+            --         >>= makeItem
+            --         >>= renderPandocASTtoPDF
+
+    -- Create content sections with pdf option
+    -- createContentSection "posts/*" "ast" "templates/post.html" "pdf"
+    -- createContentSection "talks/*" "ast" "templates/talk.html" "pdf"
+    -- createContentSection "publications/*" "ast" "templates/publication.html" "pdf"
+    -- createContentSection "projects/*" "ast" "templates/project.html" "pdf"
+
+    -- Create content sections without pdf option
+    createContentSection "posts/*" "ast" "templates/post.html"
+    createContentSection "talks/*" "ast" "templates/talk.html"
+    createContentSection "publications/*" "ast" "templates/publication.html"
+    createContentSection "projects/*" "ast" "templates/project.html"
 
     create ["index.html"] $ do
         route idRoute
@@ -247,28 +253,28 @@ makeTeaser = makeTeaserWithSeparator teaserSeparator
 
 --------------------------------------------------------------------------------
 
--- feedConfig :: FeedConfiguration
--- feedConfig = FeedConfiguration
---     { feedTitle       = "synthetic"
---     , feedDescription = "A blog about higher category theory and life"
---     , feedAuthorName  = "Dominic Verity"
---     , feedAuthorEmail = "dominic.verity@mq.edu.au"
---     , feedRoot        = "https://dom-verity.github.io"
---     }
+feedConfig :: FeedConfiguration
+feedConfig = FeedConfiguration
+    { feedTitle       = "Paul Lessard"
+    , feedDescription = "A blog about higher category theory and life"
+    , feedAuthorName  = "Paul Lessard"
+    , feedAuthorEmail = "paulrlessard@gmail.com"
+    , feedRoot        = "https://paullessard.github.io"
+    }
 
 --------------------------------------------------------------------------------
 
 siteCtx :: Context String
 siteCtx =
     constField "site-description" "Paul Lessard - Research Mathematician"                        <>
-    constField "site-url" "https://dom-verity.github.io"                          <>
+    constField "site-url" "https://paullessard.github.io"                          <>
     constField "tagline" "Categories, Types, Space and Knowledge"              <>
     constField "site-title" "Paul Lessard"                                          <>
     constField "copy-year" "2025"                                                 <>
     constField "site-author" "Paul Lessard"                                         <>
     constField "site-email" "paulrlessard@gmail.com"                            <>
-    constField "github-url" "https://github.com/paul-lessard"                       <>
-    constField "github-repo" "https://github.com/paul-lessard/paul-lessard.github.io" <>
+    constField "github-url" "https://github.com/PaulLessard"                       <>
+    constField "github-repo" "https://github.com/PaulLessard/paullessard.github.io" <>
     constField "twitter-url" "https://twitter.com/PaulRoyLessard"                      <>
     defaultContext
 

@@ -10,7 +10,7 @@ Carlton North\
 VIC 3054, Australia\
 
 Email: [paulrlessard@gmail.com](mailto:paulrlessard@gmail.com)\
-Homepage: <https://paul-lessard.github.io>
+Homepage: <https://paullessard.github.io>
 
 ### Essence
 

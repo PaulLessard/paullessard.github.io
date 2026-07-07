@@ -39,11 +39,11 @@ We'll then describe the theory of strict Z-categories and strict Z_≤-categorie
 
 In this fourth talk in the series, we'll leverage our new intuition for Cisinski model categories to re-imagine a result from the heroic age of combinatorial topology.
 
-We'll begin with the development of strict $\mathbf{Z}$ and $\mathbf{Z}_{≤ n}$ categories; we give a simple finite limit sketch definition for these abiding notions.
+We'll begin with the development of strict **Z** and **Z**<sub>≤ n</sub> categories; we give a simple finite limit sketch definition for these abiding notions.
 
 We'll then describe how the homotopification of those strict notions, gotten by way of our understanding of Cisinski's machine, fits into a grand scheme. More, in that grand scheme we will locate both Grothendieck's homotopy hypothesis and the Baez-Dolan Stabilization hypothesis.
 
-Lastly, we'll describe, in some detail, a re-imagining of Kan's combinatorial description of spectra as a proof that spectra are equivalent to locally finite pointed $\mathbf{Z}$-groupoids. This result which we call the naive stable homotopy hypothesis, is an analogue of the weak form of the G.H.H.
+Lastly, we'll describe, in some detail, a re-imagining of Kan's combinatorial description of spectra as a proof that spectra are equivalent to locally finite pointed **Z**-groupoids. This result which we call the naive stable homotopy hypothesis, is an analogue of the weak form of the G.H.H.
 
 ## Abstract for Talk 5
 
@@ -54,11 +54,11 @@ In this fifth talk in the series, we'll leverage:
 
 to re-imagine a result from the heroic age of combinatorial topology.
 
-We'll begin with the development of strict \Z and \Z-{\leq n} categories; we give a simple finite limit sketch definition for these abiding notions.
+We'll begin with the development of strict **Z** and **Z**<sub>≤ n</sub> categories; we give a simple finite limit sketch definition for these abiding notions.
 
 We'll then describe how the homotopification of those strict notions, gotten by way of our understanding of Cisinski's machine, fits into a grand scheme. More, in that grand scheme we will locate both Grothendieck's homotopy hypothesis and the Baez-Dolan Stabilization hypothesis.
 
-Lastly, we'll describe, in some detail, a re-imagining of Kan's combinatorial description of spectra as a proof that spectra are equivalent to locally finite pointed \Z-groupoids. This result which we call the naive stable homotopy hypothesis, is an analogue of the weak form of the G.H.H.
+Lastly, we'll describe, in some detail, a re-imagining of Kan's combinatorial description of spectra as a proof that spectra are equivalent to locally finite pointed **Z**-groupoids. This result which we call the naive stable homotopy hypothesis, is an analogue of the weak form of the G.H.H.
 
 ## Notes
 

@@ -5,27 +5,27 @@ header-includes:
   \input{pandoc/macros.tex}
   ```
 
-mainfont: Garamond Premier Pro
-mainfontoptions:
-- Scale = 1
-- Numbers = Lining
-- Ligatures = Common
-- Kerning = On
+# mainfont: Garamond Premier Pro
+# mainfontoptions:
+# - Scale = 1
+# - Numbers = Lining
+# - Ligatures = Common
+# - Kerning = On
 
-sansfont: Roboto
-sansfontoptions:
-- Scale = 0.9129
-- Ligatures = NoCommon
+# sansfont: Roboto
+# sansfontoptions:
+# - Scale = 0.9129
+# - Ligatures = NoCommon
 
-monofont: Office Code Pro
-monofontoptions:
-- Scale = 0.8333
+# monofont: Office Code Pro
+# monofontoptions:
+# - Scale = 0.8333
 
-mathfont: Garamond Math
-mathfontoptions:
-- Scale = 1
-- StylisticSet = 8
-- StylisticSet = 9
+# mathfont: Garamond Math
+# mathfontoptions:
+# - Scale = 1
+# - StylisticSet = 8
+# - StylisticSet = 9
 
 bibliography: pandoc/literature.bib
 csl: pandoc/aims-mathematics
