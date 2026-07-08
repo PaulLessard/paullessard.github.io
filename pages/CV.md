@@ -14,7 +14,7 @@ Homepage: <https://paullessard.github.io>
 
 ### Essence
 
-Research Mathematician with expertise in:
+Mathematician with expertise in:
 
 - Homotopy theory;
 - Category theory;
@@ -23,7 +23,7 @@ Research Mathematician with expertise in:
 
 ### Synopsis
 
-Paul Lessard is a Research Mathematician trained in homotopy theory, category theory, and geometry, now working in deep learning. Then as a postdoc (2019-2021) at the centre of Australian Category Theory at Macquarie University Paul "saw the light" of Australian Style Category Theory. After Macquarie Paul transitioned to applied work in machine learning and AI at Symbolica. Securing a 31$ million usd Series A proposing an industrial research program in categorically inflected deep learning. Paul has since left Symbolica.
+Paul Lessard is a Mathematician trained in homotopy theory, category theory, and geometry, now working in deep learning. Then as a postdoc (2019-2021) at the centre of Australian Category Theory at Macquarie University Paul "saw the light" of Australian Style Category Theory. After Macquarie Paul transitioned to applied work in machine learning and AI at Symbolica. Securing a 31$ million usd Series A proposing an industrial research program in categorically inflected deep learning. Paul has since left Symbolica.
 
 ### Areas of research interest
 

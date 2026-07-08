@@ -6,7 +6,7 @@ date: 21^st^ October 2025
 
 *\"'Certainty is never achieved'; 'foundations' are never found - but the 'cunning of reason' turns each increase in rigor into an increase in content... \"* - Imre Lakatos, Proofs and Refutations, p.60
 
-Paul Lessard is a Research Mathematician trained in:
+Paul Lessard is a Mathematician trained in:
 
 - homotopy theory
 - category theory; and

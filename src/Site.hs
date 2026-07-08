@@ -289,7 +289,7 @@ feedConfig = FeedConfiguration
 
 siteCtx :: Context String
 siteCtx =
-    constField "site-description" "Paul Lessard - Research Mathematician"                        <>
+    constField "site-description" "Paul Lessard - Mathematician"                        <>
     constField "site-url" "https://paullessard.github.io"                          <>
     constField "tagline" "Categories, Types, Space and Knowledge"              <>
     constField "site-title" "Paul Lessard"                                          <>
