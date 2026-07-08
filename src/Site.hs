@@ -204,6 +204,24 @@ main = hakyllWith config $ do
                 >>= loadAndApplyTemplate "templates/default.html" (indexCtx <> baseSidebarCtx)
                 >>= relativizeUrls
 
+    talksPaginate <- buildPaginateWith paginator ("talks/*" .&&. hasNoVersion) talksPageId
+
+    paginateRules talksPaginate $ \ page pat -> do
+        route idRoute
+        compile $ do
+            let talks = recentFirst =<< loadAllSnapshots (pat .&&. hasNoVersion) "teaser"
+            let talksCtx =
+                    constField "title" ("Talks, page " ++ show page) <>
+                    listField "talks" postCtx talks                  <>
+                    paginateContext talksPaginate page               <>
+                    siteCtx
+
+            makeItem ""
+                >>= applyAsTemplate talksCtx
+                >>= loadAndApplyTemplate "templates/talks.html" talksCtx
+                >>= loadAndApplyTemplate "templates/default.html" (talksCtx <> baseSidebarCtx)
+                >>= relativizeUrls
+
     match "templates/*" $ compile templateBodyCompiler
 
     create ["atom.xml"] $ do
