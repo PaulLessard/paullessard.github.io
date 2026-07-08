@@ -1,6 +1,6 @@
 ---
 title: A Question About Homotopies of Product Systems, prefaced with an introduction to A¹/Motivic Homotopy Theory and Østvaer's motivic-style homotopy theory of C⋆-algebras
-date: January 1, 2021
+date: February 24, 2021
 venue: Australian Category Seminar, Macquarie University
 location: Sydney, Australia
 ---

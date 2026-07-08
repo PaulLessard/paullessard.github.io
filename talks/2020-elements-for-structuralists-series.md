@@ -1,6 +1,6 @@
 ---
 title: Elements for Structuralists, Shulman's Practical Type Theory for Symmetric Monoidal Categories, and sketches of a 2‑PTT for Symmetric Monoidal Bi‑Categories
-date: January 1, 2020
+date: August 12, 2020
 venue: Australian Category Seminar, Macquarie University
 location: Sydney, Australia
 ---
@@ -42,4 +42,4 @@ as a type theory with a term calculus which extends this program to symmetric mo
 
 ## Notes
 
-This series was part of the [Australian Category Seminar](https://centre-of-australian-category-theory.github.io/seminar/) at Macquarie University.
+This three-part series was part of the [Australian Category Seminar](https://centre-of-australian-category-theory.github.io/seminar/) at Macquarie University, delivered on 12 August 2020, 19 August 2020, and 26 August 2020.

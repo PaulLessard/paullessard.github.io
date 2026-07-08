@@ -1,6 +1,6 @@
 ---
 title: The Lax-Shuffle Decomposition and the Cartesian←Gray→Shift Span
-date: January 1, 2021
+date: November 17, 2021
 venue: Australian Category Seminar, Macquarie University
 location: Sydney, Australia
 ---
