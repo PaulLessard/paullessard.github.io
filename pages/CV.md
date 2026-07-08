@@ -1,7 +1,7 @@
 ---
 title: Curriculum Vitae
 author: Paul Lessard
-date: 21^st^ October 2025
+date: 8^th^ July 2026
 ---
 
 ## Paul Lessard
@@ -33,6 +33,8 @@ Homotopy Theory • Category Theory • Algebraic Geometry • Differential Geom
 
 |    |    |    |
 |:-------|:--------------------------------------------|
+| **2026-** | _Advisor—Senior Mathematician_, [Sirius-beta](https://sirius-beta.com/), Melbourne, Victoria, AUS. |
+| **2026-** | _Research Fellow_, [Monash University](https://www.monash.edu), Department of Econometrics and Business Statistics, Caulfield, Victoria, AUS. **Funding:** [UK AI Security Institute Alignment Project](https://www.aisi.gov.uk/blog/funding-60-projects-to-advance-ai-alignment-research). |
 | **2024-2025** | _Principal Scientist - Categorical Deep Learning_, [Symbolica AI](https://www.symbolica.ai). |
 | **2023-2024** | _Senior Applied Category Theorist_, [Symbolica AI](https://www.symbolica.ai). |
 | **2021-2023** | _Honorary Postdoctoral Fellow_, [Macquarie University](https://maths.mq.edu.au), North Ryde, New South Wales, AUS. |
