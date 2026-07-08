@@ -1,6 +1,6 @@
 ---
 title: An Idiosyncratic Introduction to Homotopy Type Theory and Synthetic Algebraic Topology
-date: January 1, 2016
+date: September 7, 2016
 venue: Slow‑pitch Seminar, University of Colorado, Boulder
 location: Boulder, Colorado, USA
 ---

@@ -1,6 +1,6 @@
 ---
 title: Quillen's Theorem A and Grothendieck's Asphericité
-date: January 1, 2018
+date: April 24, 2018
 venue: Topology Seminar, University of Colorado, Boulder
 location: Boulder, Colorado, USA
 ---

@@ -1,6 +1,6 @@
 ---
 title: Reverse Engineering Continuity from Sheaves and Composition Laws Encoded as Sheaves - From Grothendieck Topologies to Globular Theories
-date: January 1, 2017
+date: September 12, 2017
 venue: Topology Seminar, University of Colorado, Boulder
 location: Boulder, Colorado, USA
 ---

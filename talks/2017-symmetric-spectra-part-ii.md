@@ -1,6 +1,6 @@
 ---
 title: Symmetric Spectra (Part II)
-date: January 1, 2017
+date: April 18, 2017
 venue: Topology Seminar, University of Colorado, Boulder
 location: Boulder, Colorado, USA
 ---

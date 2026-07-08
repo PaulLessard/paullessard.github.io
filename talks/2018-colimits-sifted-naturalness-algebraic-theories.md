@@ -1,6 +1,6 @@
 ---
 title: Of Colimits, Sifted and Not, and the Naturalness of Algebraic Theories
-date: January 1, 2018
+date: January 24, 2018
 venue: Slow‑pitch Seminar, University of Colorado, Boulder
 location: Boulder, Colorado, USA
 ---
