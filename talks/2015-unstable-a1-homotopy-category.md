@@ -1,6 +1,6 @@
 ---
 title: The Unstable A1-homotopy category
-date: August 4, 2015
+date: August 5, 2015
 venue: K-Theory Summer School, University of Southern California
 location: Los Angeles, California, USA
 ---

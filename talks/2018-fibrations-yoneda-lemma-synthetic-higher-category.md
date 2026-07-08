@@ -1,6 +1,6 @@
 ---
 title: Fibrations and the Yoneda Lemma in Synthetic Higher Category Theory
-date: May 27, 2018
+date: May 30, 2018
 venue: Talbot 2018 - Model-independent theory of infinity-categories, Massachusetts Institute of Technology
 location: Government Camp, Oregon, USA
 ---
