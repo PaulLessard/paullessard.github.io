@@ -7,7 +7,7 @@
         <description><![CDATA[A blog about higher category theory and life]]></description>
         <atom:link href="https://paullessard.github.io/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Mon, 16 Jul 2025 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Jul 2025 00:00:00 UT</lastBuildDate>
         <item>
     <title>We Must Add Structure to Deep Learning Because... Revisited</title>
     <link>https://paullessard.github.io/posts/2025-10-21-we-must-add-structure-to-deep-learning-because-revisited.html</link>
@@ -15,7 +15,7 @@
 <p>I did another very impromptu <a href="https://www.youtube.com/watch?v=TBjCvB_4mdo&amp;t=2340s">chat</a> with Tim and Keith in June of this year, the last time I visited Symbolica’s London office.</p>
 <p>While I think my outfit and hair are better in this second talk, the interview was far more all over the place. So I figured I’d give a shot at collecting the sensibility I’ve come to after a year and half of working as a category theorist in deep learning in an industrial as opposed to academic context.</p>
 ]]></description>
-    <pubDate>Mon, 16 Jul 2025 00:00:00 UT</pubDate>
+    <pubDate>Wed, 16 Jul 2025 00:00:00 UT</pubDate>
     <guid>https://paullessard.github.io/posts/2025-10-21-we-must-add-structure-to-deep-learning-because-revisited.html</guid>
     <dc:creator>Paul Lessard</dc:creator>
 </item>

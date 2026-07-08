@@ -23,6 +23,11 @@ config = defaultConfiguration
 
 main :: IO ()
 main = hakyllWith config $ do
+    -- Tell GitHub Pages not to run the output through Jekyll.
+    create [".nojekyll"] $ do
+        route   idRoute
+        compile $ makeItem ("" :: String)
+
     match ("images/*" .||. "js/*" .||. "fonts/*") $ do
         route   idRoute
         compile copyFileCompiler
