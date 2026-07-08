@@ -110,6 +110,8 @@ Homotopy Theory • Category Theory • Algebraic Geometry • Differential Geom
 
 |    |    |    |
 |:-------|:--------------------------------------------|
+| **2026** | [From Deep Clustering and Grammar VAEs to Deep Dependent Typing](/talks/2026-deep-clustering-grammar-vaes-deep-dependent-typing.html). Australian Institute of Machine Learning, Adelaide University. |
+| **2025** | [Categorical Deep Learning](/talks/2025-categorical-deep-learning.html). Structural AI Workshop, Shanghai Qi Zhi Institute. |
 | **2022** | [A Computadic Introduction to Shulman's Practical Type Theory and Variations for Semicartesian and Markov Categories](/talks/2022-computadic-intro-to-shulmans-ptt.html). Berkeley Seminar, Topos Institute. |
 | **2021** | [Weighted Limits in the 2-Category of Categories with Arities and a 2-Categorical Treatment of Spectrification](/talks/2021-weighted-limits-categories-arities.html). Australian Kittens 2021: an ECR Conference, University of Melbourne. |
 | **2021** | [Spectra as Locally Finite Pointed Z-groupoids](/talks/2021-spectra-locally-finite-groupoids.html). Melbourne Topology Seminar, University of Melbourne. |
