@@ -17,10 +17,3 @@ While I think my outfit and hair are better in this second talk, the interview w
 
 The book I was plugging of Hardt's is this: [The Emerging Science of Machine Learning Benchmarks](https://mlbenchmarks.org/) The kind of book I wish I knew enough to write!
 
-<div style="float: right; margin: 0 0 0.5cm 0.5cm; width: 25%;">
-    <img src="images/rice-and-peas.png" alt="Rice and Peas" style="width: 100%;" />
-    <p style="font-size: 0.8em; text-align: center; margin-top: 0.5em;">
-        <em>Image (c) 2020 <a href="https://www.sweetandsorrel.com">Sweet and Sorrel</a></em>
-    </p>
-</div>
-
