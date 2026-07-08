@@ -1,6 +1,6 @@
 ---
 title: Progress Towards a 'Practical Type Theory' for Symmetric Monoidal Bi-categories
-date: January 1, 2020
+date: December 15, 2020
 venue: Séminaire Sémantique, IRIF
 location: Paris, France
 ---

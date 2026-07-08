@@ -1,6 +1,6 @@
 ---
 title: Spectra are Locally Finite Z-groupoids
-date: January 1, 2019
+date: March 11, 2019
 venue: Geometry in Modal Homotopy Type Theory, Carnegie Mellon University
 location: Pittsburgh, Pennsylvania, USA
 ---

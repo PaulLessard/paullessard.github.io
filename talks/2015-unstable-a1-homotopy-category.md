@@ -1,6 +1,6 @@
 ---
 title: The Unstable A1-homotopy category
-date: January 1, 2015
+date: August 4, 2015
 venue: K-Theory Summer School, University of Southern California
 location: Los Angeles, California, USA
 ---
@@ -14,4 +14,4 @@ This talk developed the unstable A¹-homotopy category.
 
 ## Notes
 
-This talk was part of the K-Theory Summer School at USC, focusing that year on Morel & Voevodsky's A¹-homotopy theory.
+This talk was part of the [2015 USC K-Theory Summer School](https://sites.google.com/site/2015ktheorysummerschool) (4–7 August 2015), focusing that year on Morel & Voevodsky's A¹-homotopy theory.
