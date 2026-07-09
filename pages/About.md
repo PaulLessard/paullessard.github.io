@@ -8,6 +8,6 @@ date: 8^th^ July 2026
 
 *\"'Certainty is never achieved'; 'foundations' are never found - but the 'cunning of reason' turns each increase in rigor into an increase in content... \"* - Imre Lakatos, Proofs and Refutations, p.60
 
-Paul is a Mathematician, expert in homotopy theory, category theory, and algebraic geometry, now working, mostly, in categorical probability theory and deep learning.
+Paul is a Mathematician, with expertise in homotopy theory, category theory, and algebraic geometry, now working, mostly, in categorical probability and deep learning.
 
 <!--more-->

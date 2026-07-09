@@ -9,10 +9,12 @@ location: Boulder, Colorado, USA
 
 Week 1 of an Algebraic Topology Course from Another World
 
-In this talk we will describe the homotopy category of the category of spaces as the localization of **Cat** at the smallest class of morphisms which is weakly saturated and can be said to know that:
+In this talk we will describe the homotopy category of the category of spaces as the localization of **Cat** at the smallest class of morphisms which:
 
-- cones are trivial
-- Quillen's theorem A holds.
+- is weakly saturated; and
+- can be said to know that:
+ - cones are trivial
+ - Quillen's theorem A holds.
 
 From this description of the category of spaces we will unify all the ways in which categories of presheaves, e.g.:
 
