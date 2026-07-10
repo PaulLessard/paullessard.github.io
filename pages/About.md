@@ -10,4 +10,9 @@ date: 8^th^ July 2026
 
 Paul is a Mathematician, with expertise in homotopy theory, category theory, and algebraic geometry, now working, mostly, in categorical probability and deep learning.
 
+Paul is presently:
+
+- an Advisory Senior Mathematician at [https://sirius-beta.com/][Sirius Beta Labs]
+- a Research Fellow at [https://www.monash.edu/business/ebs][Monash University Department of Econometrics and Business Statistics] with [www.suswei.com][Susan Wei] funded by [https://www.aisi.gov.uk/blog/funding-60-projects-to-advance-ai-alignment-research][UK AISI]
+
 <!--more-->
