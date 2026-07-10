@@ -24,3 +24,12 @@ stack.yaml.lock
 test/
 **/_texlog/
 **/auto/
+
+### macOS ###
+.DS_Store
+**/.DS_Store
+
+### Editor / backup files ###
+*.bak
+*~
+*.swp
