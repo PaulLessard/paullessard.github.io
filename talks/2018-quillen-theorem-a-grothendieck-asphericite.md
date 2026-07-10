@@ -13,8 +13,8 @@ In this talk we will describe the homotopy category of the category of spaces as
 
 - is weakly saturated; and
 - can be said to know that:
- - cones are trivial
- - Quillen's theorem A holds.
+    - cones are trivial
+    - Quillen's theorem A holds.
 
 From this description of the category of spaces we will unify all the ways in which categories of presheaves, e.g.:
 
